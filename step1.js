@@ -1,5 +1,4 @@
-
-const stringCalculator = (string) => {
+const add = (string) => {
   // Convert string into an array of int numbers
   // Each iteration of arrayOfInt is passed to Number() method
   const arrayOfInt =  string.split(',').map(Number);
@@ -10,6 +9,6 @@ const stringCalculator = (string) => {
   return sum;
 }
 
-console.log(stringCalculator("")); // 0
-console.log(stringCalculator("1")); // 1
-console.log(stringCalculator("1,5")); // 6
+console.log(add("")); // 0
+console.log(add("1")); // 1
+console.log(add("1,5")); // 6
